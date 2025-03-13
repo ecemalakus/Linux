@@ -1,2 +1,21 @@
-LINUX COMANDS
-
+LINUX 
+1-) ls /      komutu ile bunlari görüntüleyebiliyoruz.
+/ (Root)  Kök dizin. Tum Linux sisteminin en ust noktasi. Butun dosyalar buraya baglidir.
+/bin      Temel Linux komutlari burada bulunur (ls, cat, mkdir, cp, mv, rm vb.).
+/boot     Sistemin acilis (boot) dosyalari burada bulunur. Kernel dosyalari da buradadir.
+/dev      Tum donanim aygitlari burada bir dosya gibi gorunur! (Ornek: sda hard disk, tty klavye).
+/etc      Konfigurasyon dosyalarinin bulundugu yerdir. (/etc/passwd → kullanici listesi gibi).
+/home     Kullanicilarin ev dizini. (/home/ecem, /home/ahmet gibi).
+/lib      Sistem programlarinin kullandigi kutuphaneler (DLL gibi).
+/media    USB veya harici disk baglandiginda buraya monte edilir.
+/mnt      Gecici olarak baglanan dosya sistemleri buraya monte edilir.
+/opt      Ekstra yazilimlar genellikle buraya yuklenir.
+/proc     Sistem bilgileri (bellek, CPU, disk vb.) canli olarak burada gorunur. (cat /proc/cpuinfo).
+/root     Root (super kullanici) icin ozel dizin. (/home/root yerine /root kullanilir.)
+/run      Sistem calisirken gecici verileri tutar.
+/sbin     Sadece root kullanicisinin erisebilecegi komutlar. (reboot, shutdown, iptables vb.).
+/srv      Sunucu (server) servis dosyalari burada tutulur.
+/sys      Calisan donanimlarin bilgilerini icerir. (ls /sys ile gorebilirsin.)
+/tmp      Gecici dosyalar burada tutulur. Sistem yeniden baslatildiginda silinir.
+/usr      Kullaniciya yonelik yazilimlar (/usr/bin, /usr/lib, /usr/share).
+/var      Log dosyalari, e-posta verileri, cache gibi degisken dosyalar burada tutulur. (/var/log/syslog).
